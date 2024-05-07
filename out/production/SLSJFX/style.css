@@ -1,0 +1,32 @@
+.root {
+    -fx-background-image: url('background.jpg');
+    -fx-background-size: cover;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-pref-width: 220px;
+    -fx-pref-height: 40px;
+    -fx-background-color: #656565;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-width: 0;
+}
+
+.button:hover {
+    -fx-background-color: #444444;
+}
+
+.button:pressed {
+    -fx-background-color: #2f2f2f;
+}
+
+.grid-pane {
+    -fx-padding: 20px;
+    -fx-background-color: #f0f0f0;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+}
